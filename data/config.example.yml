@@ -1,0 +1,8 @@
+homeserver_url: https://127.0.0.1:443
+bot_token: 1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0
+bot_id: '@login:domain.net'
+forwardable_events:
+  - m.room.message
+  - m.sticker
+chat_mappings:
+  '!AAAAAAAAAAAAAAAAAA:domain.net': '!BBBBBBBBBBBBBBBBBB:domain2.com'
